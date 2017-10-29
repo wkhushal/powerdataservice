@@ -16,7 +16,7 @@ namespace IntraDayPowerPosition
         {
             // change the project type to console application to make the service run as a console application
             // this way one can test the service without having to install it
-            var service = new prive();
+            var service = new IntraDayPowerPosition();
             if (Environment.UserInteractive)
             {
                 service.StartService(args);

@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace IntraDayPowerPosition
 {
     internal interface IIntraDayPowerPosition
     {
-        void OnExecute(DateTime tenor);
+        Task OnExecuteAsync(DateTime tenor);
         void StartService();
         void StopService();
     }

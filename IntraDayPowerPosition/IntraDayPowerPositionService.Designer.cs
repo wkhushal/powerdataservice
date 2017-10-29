@@ -1,6 +1,6 @@
 ﻿namespace IntraDayPowerPosition
 {
-    partial class prive
+    partial class IntraDayPowerPosition
     {
         /// <summary> 
         /// Required designer variable.

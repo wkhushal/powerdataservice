@@ -8,6 +8,8 @@ namespace PowerReportGenerator
 {
     public class PowerReportGenerator : IPowerReportGenerator
     {
+        private static readonly Lazy<log4net.ILog> log = new Lazy<log4net.ILog>(() => log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType));
+
         private string _reportTargetPath;
         private int _hoursOffset;
 
@@ -21,7 +23,7 @@ namespace PowerReportGenerator
         {
             if (!data.Any())
             {
-                Console.WriteLine("Empty data, not creating a report");
+                log.Value.Warn("Empty data, not creating a report");
                 return;
             }
             var reportDate = DateTime.UtcNow;

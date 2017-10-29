@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace ReportManager
 {
     public interface IReportManager
     {
-        void GeneratePowerDayAheadPositionsReport(DateTime tenor);
+        Task GeneratePowerDayAheadPositionsReportAsync(DateTime tenor);
     }
 }
