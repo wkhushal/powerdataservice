@@ -1,0 +1,7 @@
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\bin\Debug\IntraDayPowerPosition.exe.config
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\bin\Debug\IntraDayPowerPosition.exe
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\bin\Debug\IntraDayPowerPosition.pdb
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\bin\Debug\PowerService.dll
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\obj\Debug\IntraDayPowerPosition.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\obj\Debug\IntraDayPowerPosition.exe
+c:\users\user\documents\visual studio 2017\Projects\IntraDayPowerPosition\IntraDayPowerPosition\obj\Debug\IntraDayPowerPosition.pdb
